@@ -1,0 +1,286 @@
+#header{
+    height: 50px;
+    background-color:#512da8 ;
+}
+
+.navbar-nav{
+    margin-left: 000px;
+    font-size: 20px;
+    color: #dfdfdf;
+}
+
+.nav-link{
+    padding: 10 px;
+    
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #000;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+
+#nav{
+    margin-left: 25px;
+    font-size: 24px;
+    
+}
+
+#header button{
+    margin-left: 3px;
+    
+}
+
+
+.xyz {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td{
+    text-align: center;
+    padding: 2px;
+}
+tr:nth-child(even) {
+    background-color:#ffffcb ;
+}
+
+th{
+    background-color: #36a494;
+    color: #cdf8f1;
+    padding: 7px;
+    text-align: center;
+}
+
+table a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+}
+table a:hover {
+    color: #a3d8a4;
+}
+
+.add_to_cartt{
+    background-color:transparent ;
+  border: none;
+  color: black;
+  padding: 10px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+}
+
+.add_to_cartt:hover{
+    background-color: #1a237e;
+  color: white;
+}
+
+.add{
+    background-color:transparent ;
+  border: none;
+  color: black;
+  padding: 10px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+  margin-left: 47%;
+}
+
+.add:hover{
+    background-color: #36a494;
+  color: white;
+}
+
+.mid{
+    margin-left: 560px;
+}
+
+.mid input[type="submit"]{
+    margin-left: 200px;
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background:#7986cb ;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.mid input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px;
+    background:#1a237e ;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+#toast {
+    min-width: 300px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -150px;
+    background: #ffffff;
+    padding: 10px;
+    color: #512da8;
+    text-align: center;
+    z-index: 1;
+    font-size: 15px;
+    visibility: hidden;
+    box-shadow: 0px 0px 70px #000;
+}
+#toast.display {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn{
+    from{
+        bottom: 0;
+        opacity: 0;
+    }
+    to{
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    from{
+        bottom: 30px;
+        opacity: 1;
+    }
+    to{
+        bottom: 0;
+        opacity: 0;
+    }
+} 
+
+#buttonh{
+    background-color: #512da8;
+    margin-top: 7px; 
+    margin-left: 40px;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+   margin-left: 1100px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0px;
+    transition-duration: 0.4s;
+}
+#buttonh:hover {
+    background-color: #512da8;
+  color: #ffffcb;
+}
+
+#myInput input[type="text"]{
+    
+    margin-left: 300px;
+    background-color: #818181;
+}
+
+/*#pay input[type="submit"]{
+    
+
+   margin-right: 40px;
+}*/
+/*.hap input[type="submit"]{
+    top: 110%;
+    margin-left: 770px;
+    margin-top: 470px;
+    margin-down: 10px;
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background:#c5ebbd ;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.no {
+    
+    width: 320px;
+    height: 480px;
+    background: #ffcc33;
+    margin: 0;
+    padding: 30px;
+    top: 100%;
+    left: 50%;
+    color:#fff ;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+
+}
+
+.no input[type="text"],.no input[type="email"]
+{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.no input[type="submit"]{
+    top: 100%;
+    margin-left: 27px;
+    margin-top: 100px;
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #797eff ;
+    color: #fff ;
+    font-size: 25px;
+    border-radius: 10px;
+    top: px;
+}*/
+
+.ox,
+.usr{
+    width: 320px;
+    height: 400px;
+    background: #ffcc33;
+    margin: 0;
+    padding: 30px;
+    top: 52%;
+    left: 50%;
+    color:#fff ;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+       

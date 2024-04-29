@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Jun, 2021, 9:07:01 AM
+    Author     : RANA
+*/
+
+      *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+    position: absolute;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    
+    
+}
+
+.container span{
+/*    color: #36a494;*/
+    text-transform: uppercase;
+    display: block;
+    margin-left: 270px;
+    
+}
+.text1{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: transparent;
+    position: relative;
+    animation: text 3s 1;
+    
+}
+
+.text2{
+    font-size: 30px;
+    color: #e76400;
+}
+
+.text3{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-top: 23px;
+    background: transparent;
+    position: relative;
+    animation: text 3s 1;
+}
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -50px;
+        
+    } 
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -50px;
+    }
+    
+    80%{
+        letter-spacing: 8px;
+         margin-bottom: -50px;
+    }
+    
+}
+    
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.conainer{
+   
+    position: relative;
+    width: 1200px;
+    height: 350px;
+    margin: 200px auto;
+    
+    /*background: #000 ;*/
+}
+
+.conainer .rox{
+    position:relative;
+    width: calc(250px - 20px);
+    height: calc(300px - 20px);
+    background: #000;
+    float: left;
+    margin: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.conainer .rox .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.conainer .rox:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.conainer .rox .icon .bi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.conainer .rox:hover .icon .bi{
+    font-size: 40px;
+}
+
+.conainer .rox .content{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    margin-left: 40px;
+    font-size: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.conainer .rox:hover .content{
+    top: 100px;
+    opacity: 1;
+}
+
+
+.conainer .rox .content h2{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.conainer .rox:nth-child(1) .icon{
+    background: #5c6bc0;
+}
+
+
+.conainer .rox:nth-child(1) {
+    background: #303f9f;
+}
+
+
+.conainer .rox:nth-child(2) .icon{
+    background: #ef5350;
+}
+
+.conainer .rox:nth-child(2) {
+    background: #d32f2f;
+}
+
+.conainer .rox:nth-child(3) .icon{
+    background: #66bb6a;
+}
+
+.conainer .rox:nth-child(3){
+    background: #2e7d32;
+}
+
+.conainer .rox:nth-child(4) .icon{
+    background: #b0bec5;
+}
+
+.conainer .rox:nth-child(4){
+    background: #546e7a;
+}

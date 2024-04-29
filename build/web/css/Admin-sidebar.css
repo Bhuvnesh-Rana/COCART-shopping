@@ -1,0 +1,188 @@
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ffcc33; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+ 
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+    font-size: 30px;
+    margin-top: 130px;
+  margin-left: 300px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/**{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.container span{
+    color: #36a494;
+    text-transform: uppercase;
+}*/
+
+
+
+
+/*body {
+    background-image: url("../img/lp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arimo', sans-serif;
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.pqr {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.hm,
+.ad{
+    width: 320px;
+    height: 350px;
+    background: #ffcc33;
+    margin: 0;
+    padding: 30px;
+    top: 55%;
+    left: 50%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+}
+
+.hm h1{
+    height: 50px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.hm p{
+    color: #17214c;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.hm input {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.hm input[type="text"],.hm input[type="password"] {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.hm input[type="submit"] {
+    display: block;
+    border: none;
+    outline: none;
+    height: 35px;
+    background:#c5ebbd ;
+    color: #000;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.hm input[type="submit"]:hover {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #a3d8a4;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+.hm a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-left: 59px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.hm a:hover {
+    color: #65cc91;
+}*/
+
+/*body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}*/
+
+/*.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px;
+    
+}
+
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height : calc(300px - 30px);
+    background: #ff0;
+    margin: 15px;
+    
+}*/
+
